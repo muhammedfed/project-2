@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+
+.word-{
+    color: purple;
+}
+
+.main-word{
+    font-size: clamp(2rem, 1vmin, 2rem);
+    font-family: sans-serif;
+    color: black;
+
+}
+
+.btn{
+    background-color: rgb(116, 43, 226);
+    color: white;
+    width: 91px;
+    padding: 10px;
+    border: 2px  black;
+    border-radius: 40px;
+}
+
+.icon-1{
+    position: absolute;
+    bottom: -6px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.image-1{
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+
+.menu-bar{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(116, 43, 226);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: rgb(208, 208, 208);
+    border-radius: 2px;
+}
